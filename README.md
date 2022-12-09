@@ -35,9 +35,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 # Math Magicians: tests <a name="about-project"></a>
+# 📖 # # Bookstore: initialize project with components <a name="about-project"></a>
 
-**# Math Magicians: tests** In this project, you will write unit tests for the Math Magicians app, using the *Jest* and *React Testing Library* libraries.
+**# # Bookstore: initialize project with components** This project will lay foundations for your Bookstore website. You will create the **React** part of the app. 
+You will also set up routing using **React Router**.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -126,12 +127,6 @@ You can deploy this project using:
 - GitHub: [@githubhandle](https://github.com/whiteWolfx99)
 - Twitter: [@twitterhandle](#)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hevar-hoshang-9a7a68237/)
-
-👤 **David Zambrano Corral**
-
-- GitHub: [@githubhandle](https://github.com/yayoamigo)
-- Twitter: [@twitterhandle](#)
-- LinkedIn: [LinkedIn](#)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
