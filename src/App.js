@@ -1,11 +1,17 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import './App.css';
+import Navbar from './View/Navbar';
+import Main from './Routes';
 
 export default function App() {
   return (
-    <div className="app">
-      <h1>Math Magicians</h1>
+    <div className="App">
+      <nav>
+        <Navbar />
+      </nav>
+      <main>
+        <Main />
+      </main>
     </div>
   );
 }
