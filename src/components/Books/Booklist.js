@@ -1,31 +1,26 @@
 import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { removeBook } from '../../redux/books/books';
 import Book from './Book';
 
 function Booklist() {
-  const books = [
-    {
-      id: 1,
-      title: 'The Hunger Games',
-      author: 'Suzanne Collins',
-    },
-    {
-      id: 2,
-      title: 'Harry Potter',
-      author: 'J.K. Rowling',
-    },
-    {
-      id: 3,
-      title: 'Twilight',
-      author: 'Stephenie Meyer',
-    },
-  ];
+  const books = useSelector((state) => state.books.books);
+  const dispatch = useDispatch();
+
+  const handleRemoveBook = (id) => {
+    dispatch(removeBook(id));
+  };
+
   return (
     <div>
-      <ul>
-        {books.map((book) => (
-          <Book key={book.id} title={book.title} author={book.author} />
-        ))}
-      </ul>
+      {books.map((book) => (
+        <Book
+          key={book.id}
+          title={book.title}
+          author={book.author}
+          handleRemoveBook={() => handleRemoveBook(book.id)}
+        />
+      ))}
     </div>
   );
 }
