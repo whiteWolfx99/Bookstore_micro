@@ -1,4 +1,3 @@
-/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import Navbar from './View/Navbar';
 import Main from './Routes';
