@@ -35,10 +35,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 # # Bookstore: add reducers and actions <a name="about-project"></a>
+# 📖 # # Bookstore: Use Redux in React components.
+ <a name="about-project"></a>
 
-**# # Bookstore: add reducers and actions** In this step, you will configure your Redux Store and write *actions* and *reducer* for adding and removing books.
-NOTE: editing an existing book and updating the progress is not part of this step. Neither is the styling of the application's components but **adding and removing actions need to be implemented.**.
+**# # Bookstore: Use Redux in React components.** In this step you will use Redux store to display books. You will also add some UI elements to your components and make them *dispatch* actions.
+NOTE: editing an existing book and updating the progress is not part of this step. Neither is the styling of the application's components.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -135,9 +136,9 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[React]**
+- [ ] **[redux-toolkit]**
+- [ ] **[router-dom]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
