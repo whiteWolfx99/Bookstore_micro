@@ -7,10 +7,12 @@ const CategorySlice = createSlice({
       {
         id: 1,
         name: 'Action',
+        check: false,
       },
       {
         id: 2,
         name: 'Biography',
+        check: false,
       },
     ],
   },
@@ -21,9 +23,17 @@ const CategorySlice = createSlice({
         1,
       );
     },
+
+    /* eslint-disable */
+    checkCategory: (state) => {
+      state.categories.forEach((category) => {
+        category.check = !category.check;
+      });
+      /* eslint-enable */
+    },
   },
 });
 
-export const { removeCategory } = CategorySlice.actions;
+export const { removeCategory, checkCategory } = CategorySlice.actions;
 
 export default CategorySlice.reducer;
