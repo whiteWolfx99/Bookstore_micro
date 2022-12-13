@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Routes, Route } from 'react-router-dom';
 import Books from './View/Books';
 import Categories from './View/Categories';

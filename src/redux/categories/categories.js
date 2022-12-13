@@ -15,12 +15,15 @@ const CategorySlice = createSlice({
     ],
   },
   reducers: {
-    checkCategory: (state, action) => {
-      state.categories.push(action.payload);
+    removeCategory: (state, action) => {
+      state.categories.splice(
+        state.categories.findIndex((arrow) => arrow.id === action.payload),
+        1,
+      );
     },
   },
 });
 
-export const { checkCategory } = CategorySlice.actions;
+export const { removeCategory } = CategorySlice.actions;
 
 export default CategorySlice.reducer;

@@ -13,3 +13,11 @@ body {
   margin: 20px 0;
   padding: 20px;
 }
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
