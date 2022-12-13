@@ -35,10 +35,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 # # Bookstore: initialize project with components <a name="about-project"></a>
+# 📖 # # Bookstore: add reducers and actions <a name="about-project"></a>
 
-**# # Bookstore: initialize project with components** This project will lay foundations for your Bookstore website. You will create the **React** part of the app. 
-You will also set up routing using **React Router**.
+**# # Bookstore: add reducers and actions** In this step, you will configure your Redux Store and write *actions* and *reducer* for adding and removing books.
+NOTE: editing an existing book and updating the progress is not part of this step. Neither is the styling of the application's components but **adding and removing actions need to be implemented.**.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -100,7 +100,7 @@ Clone this repository to your desired folder:
 Install this project using the following command: 
 
 `npm install`.
-`npm i react-test-renderer`.
+
 ### Usage
 
 To run the project, execute the following commands:
