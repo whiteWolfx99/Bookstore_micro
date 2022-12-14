@@ -35,11 +35,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 # # Bookstore: Use Redux in React components.
+# 📖 # Bookstore: connect to API
  <a name="about-project"></a>
 
-**# # Bookstore: Use Redux in React components.** In this step you will use Redux store to display books. You will also add some UI elements to your components and make them *dispatch* actions.
-NOTE: editing an existing book and updating the progress is not part of this step. Neither is the styling of the application's components.
+**# Bookstore: connect to API** In this project, you will connect your React-Redux application to an existing API to create and remove books in a remote server.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -94,7 +93,7 @@ Clone this repository to your desired folder:
 
 - Clone the project using by running the following command:
 
-`git clone https://github.com/whiteWolfx99/Math-Magicians.git`
+`git clone https://github.com/whiteWolfx99/Bookstore_micro.git`
 
 ### Install
 
@@ -139,6 +138,7 @@ You can deploy this project using:
 - [ ] **[React]**
 - [ ] **[redux-toolkit]**
 - [ ] **[router-dom]**
+- [ ] **[API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

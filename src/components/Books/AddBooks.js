@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../../redux/books/books';
+import { fetchBooks, addBookAsync } from '../../redux/books/books';
 
 function AddBooks() {
   const [title, setTitle] = useState('');
@@ -8,16 +8,18 @@ function AddBooks() {
 
   const dispatch = useDispatch();
 
-  const handleAddBook = (title, author) => {
-    const id = Math.floor(Math.random() * 100);
+  const handleAddBook = async (title, author) => {
+    const category = 'Action';
     const newBook = {
-      id,
+      item_id: Math.floor(Math.random() * 1000),
       title,
       author,
+      category,
     };
-    dispatch(addBook(newBook));
+    await dispatch(addBookAsync(newBook));
     setTitle('');
     setAuthor('');
+    dispatch(fetchBooks());
   };
 
   return (
