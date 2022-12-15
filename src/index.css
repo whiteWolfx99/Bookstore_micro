@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap');
+
 body {
+  padding: 0;
   margin: 0;
-  padding: 20px;
+  font-family: 'Roboto Slab', serif;
+  background-color: #f5f6fa;
+}
+
+p,
+h3 {
+  margin: 0;
+  padding: 0;
 }
 
 .Book {
@@ -8,10 +18,181 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
-  border: 1px solid #ccc;
+  border-radius: 4px;
+  justify-content: space-between;
+  border: 1px solid #e4e5e7;
+  background-color: #fff;
   margin: 20px 0;
   padding: 20px;
+}
+
+.add-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.data-first {
+  display: flex;
+  width: 60%;
+}
+
+.data-last {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.data-first input {
+  width: 100%;
+}
+
+.data-last input {
+  width: 40%;
+}
+
+.data-first input,
+.data-last input {
+  padding: 13px;
+  border: 1px solid #e4e5e7;
+  border-radius: 4px;
+}
+
+.data-last button {
+  border: none;
+  border-radius: 3px;
+  padding: 13px 50px;
+  background-color: #0290ff;
+  color: #f5f6fa;
+  font-weight: 100;
+  cursor: pointer;
+  display: flex;
+}
+
+h2 {
+  color: rgb(136, 135, 135);
+  font-weight: 900;
+}
+
+.add-container {
+  border-top: 1px solid #e4e5e7;
+  margin-top: 30px;
+}
+
+.function-button button {
+  background-color: #fff;
+  color: #0291ffa6;
+  cursor: pointer;
+}
+
+.progress-bar {
+  border-right: 1px solid #e4e5e7;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.progress-percentage p {
+  font-size: 30px;
+}
+
+.progress-percentage span {
+  font-size: 13px;
+  color: rgb(192, 191, 191);
+}
+
+.border-right-1 {
+  border: none;
+  border-right: 1px solid #e4e5e7;
+  padding: 0 20px 0 0;
+}
+
+.border-right-2 {
+  border: none;
+  border-right: 1px solid #e4e5e7;
+  padding: 0 20px;
+}
+
+.border-none {
+  border: none;
+  padding: 0 20px;
+}
+
+.body-container {
+  padding: 50px 100px 50px 100px;
+}
+
+.text-book {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-book p {
+  font-size: 14px;
+  color: rgb(136, 135, 135);
+  font-weight: 900;
+}
+
+.text-book h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.text-book span {
+  font-size: 14px;
+  color: #0291ffa6;
+}
+
+.progress-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-items {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-right: 80px;
+}
+
+.CircularProgressbar {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.function-button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.progress-buttons p {
+  color: #ccc;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.progress-buttons span {
+  font-weight: 350;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+.progress-buttons button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 30px;
+  background-color: #0290ff;
+  color: #f5f6fa;
+  font-weight: 100;
+  cursor: pointer;
 }
 
 .show {
@@ -20,4 +201,62 @@ body {
 
 .hide {
   display: none;
+}
+
+.Navbar nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 90px;
+  border-bottom: 2px solid #e4e5e7;
+  background-color: #fff;
+}
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  margin-left: 45px;
+}
+
+.avatar {
+  border: 1px solid #e4e5e7;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.Logo h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.avatar img {
+  width: 17px;
+  height: 15px;
+  padding: 10px;
+}
+
+.navbar-header {
+  display: flex;
+}
+
+.Links-item {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.add-data input::placeholder {
+  color: #ccc;
+}
+
+.add-data input:focus {
+  outline: none;
+  border: 1px solid #e4e5e7;
 }

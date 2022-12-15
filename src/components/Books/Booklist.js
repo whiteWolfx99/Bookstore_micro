@@ -18,16 +18,15 @@ function Booklist() {
 
   return (
     <div>
-      <ul key={books.item_id}>
+      <div className="book-container">
         {Object.keys(books).map((key) => (
           <Book
             key={key}
-            id={key}
             book={books[key]}
             handleRemoveBook={() => handleRemoveBook(key)}
           />
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

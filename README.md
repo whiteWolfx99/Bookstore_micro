@@ -35,10 +35,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 # Bookstore: connect to API
+# 📖 # Bookstore: styling
  <a name="about-project"></a>
 
-**# Bookstore: connect to API** In this project, you will connect your React-Redux application to an existing API to create and remove books in a remote server.
+**# Bookstore: styling** This is the last project of the Bookstore website. Now that all the functionality is done, you have to add styling. You will use Zeplin as a collaboration tool.
 
 ## 🛠 Built With <a name="built-with"></a>
 
