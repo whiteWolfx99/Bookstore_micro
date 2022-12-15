@@ -7,6 +7,12 @@ body {
   background-color: #f5f6fa;
 }
 
+p,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 .Book {
   display: flex;
   flex-direction: row;
@@ -25,15 +31,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-}
-
-.add-data input::placeholder {
-  color: #ccc;
-}
-
-.add-data input:focus {
-  outline: none;
-  border: 1px solid #e4e5e7;
 }
 
 .data-first {
@@ -94,6 +91,10 @@ h2 {
 .progress-bar {
   border-right: 1px solid #e4e5e7;
   padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
 }
 
 .progress-percentage p {
@@ -164,19 +165,6 @@ h2 {
   height: 60px;
   padding: 0;
   margin: 0;
-}
-
-p,
-h3 {
-  margin: 0;
-  padding: 0;
-}
-
-.progress-bar {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  align-items: center;
 }
 
 .function-button {
@@ -262,4 +250,13 @@ h3 {
 .Links-item {
   text-decoration: none;
   color: #ccc;
+}
+
+.add-data input::placeholder {
+  color: #ccc;
+}
+
+.add-data input:focus {
+  outline: none;
+  border: 1px solid #e4e5e7;
 }
